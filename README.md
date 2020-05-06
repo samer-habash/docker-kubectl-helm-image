@@ -7,3 +7,4 @@ using kubectl or helm example : docker run --rm --name docker-helm-kubectl -v ~/
 NOTE: it has to mount inside the contianer as /root/.kube as shown above .
 
 Rebuilding the image without docker : Please check the Dockerfile : just replace the FROM line to be alpine:latest
+  
